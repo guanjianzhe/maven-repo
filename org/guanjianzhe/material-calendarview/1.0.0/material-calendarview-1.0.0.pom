@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.guanjianzhe</groupId>
+  <artifactId>material-calendarview</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <name>Material CalendarView</name>
+  <description>A Material design back port of Android's CalendarView</description>
+  <url>https://github.com/guanjianzhe/material-calendarview</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/guanjianzhe/material-calendarview/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>guanjianzhe</id>
+      <name>guanjianzhe&lt;guanjianzhe@gmail.com></name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:guanjianzhe/material-calendarview.git</connection>
+    <developerConnection>scm:git@github.com:guanjianzhe/material-calendarview.git</developerConnection>
+    <url>https://github.com/guanjianzhe/material-calendarview</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-v4</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>support-annotations</artifactId>
+      <version>25.3.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
